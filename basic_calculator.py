@@ -14,7 +14,7 @@ def div(a, b):
     answer = a / b
     print(str(a) + " / " + str(b) + " = " + str(answer))    
 
-def modulus(a % b):
+def mod(a % b):
     answer = a % b
     print(str(a) + " % " + str(b) + " = " + str(answer))
     
@@ -52,7 +52,7 @@ elif choice == "f" or choice == "F":
     print("Modulus")
     a = int(input("Input first number: "))
     b = int(input("Input second number: "))
-    modulus(a, b)
+    mod(a, b)
 elif choice == "e" or choice == "E":
     print("Program ended!")
     quit()
